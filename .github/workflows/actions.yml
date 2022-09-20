@@ -6,7 +6,7 @@ on:
       - 'develop'
       - 'master'
     branches: 
-      - master
+      - develop
   push:
     branches: 
       - develop
