@@ -2,6 +2,11 @@ name: Github Actions Debug
 
 on:
   pull-request:
+    paths:
+      - 'develop'
+      - 'master'
+    branches: 
+      - master
   push:
     branches: 
       - develop
