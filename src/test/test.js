@@ -19,6 +19,6 @@ describe("Survey Model", function(){
         let surveyModel = new SurveyModel();
         let result = surveyModel.verifyCaptchaInput("random");
 
-        expect(result).to.equal("Success! Captcha input doesn't matched.");
+        expect(result).to.equal("Err! Captcha input doesn't matched.");
     });
 });
